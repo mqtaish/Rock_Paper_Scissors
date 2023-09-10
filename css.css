@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: red;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 48% */
+    letter-spacing: 0.15px;
+    padding-bottom: 113px;
+
+}
+
+.container {
+    max-width: 1440px;
+    height: 780px;
+    background-image: url(imgs/Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 239px;
+    padding-right: 280px;
+    padding-top: 124px;
+    padding-bottom: 208px;
+    margin: auto auto;
+}
+
+
+.game {
+    margin-top: 50px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    cursor: pointer;
+    margin: 0 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.game .choice img{
+    width: 90px;
+    height: 90px;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:127px;
+}
+
+#rock {
+    width: 246px;
+    height: 198.388px;
+    flex-shrink: 0;
+}
+
+
+#paper {
+    width: 166px;
+    height: 231.734px;
+    flex-shrink: 0;
+}
+
+#scissors {
+    width: 242px;
+    height: 254.781px;
+    flex-shrink: 0;
+}
